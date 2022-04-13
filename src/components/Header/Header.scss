@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&family=Poly&display=swap');
+
+.Header{
+    display: flex;
+    height:100vh;
+    align-items: center;
+
+    .header-left{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex:1;
+        height:100vh;
+        background-color: rgb(33, 30, 30);
+        color:white;
+        align-items: center;
+         .wrapper-title{
+            font-size: 30px;
+            h2{
+                font-size: 20px;
+                font-family: 'Volkhov', serif;
+            }
+            h1{
+
+                font-weight: 900;
+                margin:20px;
+                font-family: 'Merienda', cursive;
+                font-family: 'Poly', serif;            }
+         }
+      .wrapper{
+         
+          height: 52px;
+          overflow: hidden;
+          
+          .wrapper-left{
+
+padding:5px;
+
+          }
+
+          .item-wrapper{
+              display: flex;
+              justify-content: center;
+            animation:move 10s ease-in-out infinite alternate-reverse;
+              height:52px;
+              font-size:35px;
+              color:green;
+              
+          }
+      }
+    }
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+   
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.header-right{
+    flex:1;
+    height:100vh;
+    background-color: rgb(33, 30, 30);
+    
+   .bg-right{
+       position: relative;
+     
+       clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background: green;
+    height:100%;
+    width:100%;
+
+    
+   }
+   img{
+       width: 60%;
+       height: 80%;
+       position: absolute;
+       object-fit: cover;
+       bottom:95px;
+       right:5px;
+       border-radius: 20%;
+   }
+}

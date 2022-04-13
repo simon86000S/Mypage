@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Merienda&family=Poly&display=swap');
+
+
+.navigation{
+  position: sticky;
+  top:15px;
+  width: 100%;
+  background-color: white;
+  z-index: 15;
+
+  .menu{
+  
+  
+    font-family: 'Beau Rivage', cursive;
+ font-size: 25px;
+      .nav-ul{
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+        
+ 
+         ul {
+         
+            display: flex;
+          justify-content: center;
+            width: 100%;
+         }
+           a{
+             color:black;
+              list-style-type: none;
+              text-decoration: none;
+            }
+         li{
+            padding:20px;
+            margin: 10px;
+            
+            list-style: none;
+          
+        &:hover{
+          
+            background-color: black;
+            color:white;
+            cursor: pointer;
+            transition:  .5s ease-in-out;
+        }
+        }
+      }
+  }
+}
