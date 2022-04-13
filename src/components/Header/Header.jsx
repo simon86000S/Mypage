@@ -97,7 +97,7 @@ const Header = () => {
 
    <div className='wrapper-title'>
    
-    <h2>Bonjour, je suis</h2>
+    <h2>Bonjour, je suisssss</h2>
 <h1>Simon Audrain</h1>
    
    </div> 
