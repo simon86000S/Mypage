@@ -3,7 +3,8 @@ import './Landing.scss';
 import huitre from '../assets/img/huitre.jpg';
 import react from '../assets/img/reactjs.png';
 import ordinateur from '../assets/img/ordinateur.jpg';
-
+import pc from "../assets/img/pcc.png";
+import html from "../assets/img/html.png"
 const Landing = () => {
   return (
     <div className='Container'>
@@ -84,13 +85,19 @@ Je conçoit des sites bénévolements, afin de me perfectionner. </p>
 
     </div>
     <div className='gridService'>
+
    <div className='services'>
-    <div style={{background:"green"}}>lkdksjd</div>
-    <div  style={{background:"red"}}>kldjskdjslkd</div>
-    <div  style={{background:"yellow"}} >skdj:sdjklsj</div>
-    <div>skdj:sdjklsj</div>
-    <div>skdj:sdjklsj</div>
-    <div>skdj:sdjklsj</div>
+    <div className='service-text'> <img src={pc}></img>Multi-plateforme
+   <p >Compatible sur tous supports,tablette,mobile</p> </div>
+    
+    <div className='service-text'  ><img src={html}></img>Devéloppement Web
+ 
+    <p >Création de site vitrine</p></div>
+    <div className='service-text'>Projet Web
+    <p >Création de site vitrine,Landing page,site e-commerce</p></div>
+    <div className='service-text'>Réferencement</div>
+    <div className='service-text'  >Accompagnement</div>
+    <div className='service-text'>Maintenance web</div>
 
   </div>
     

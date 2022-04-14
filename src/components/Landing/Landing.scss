@@ -2,7 +2,8 @@
 
 .Presentation{
 
-    background-color: rgb(159, 159, 152);
+    background: #f5f5f5;
+
     height:100vh;
     
     display: flex;
@@ -118,6 +119,7 @@ p{
        
        h1{
            text-align: center;
+           margin-top: 60px;
         }
       
   
@@ -581,7 +583,7 @@ font-family: 'Poly', serif;
    
     
     height:40vh;
-    background-color: rgb(238, 249, 238);
+    background-color: rgb(194, 212, 194);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -601,26 +603,60 @@ font-family: 'Poly', serif;
 .gridService{
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 90vh;
     margin-top: 25px;
+    font-size: 20px;
+    background: #f5f5f5;
+}
     
    
     .services{
         display: grid; 
   grid-template-columns: 1fr 1fr 1fr; 
   grid-template-rows: 1fr 1fr 1fr; 
-  gap: 11px 8px; 
+  gap: 30px 38px; 
   grid-template-areas: 
     ". ."
     ". ."
     ". ."; 
-  width: 600px; 
-  height:700px;
- 
-       
+  width: 900px; 
+  height:900px;
+  margin-top: 25px;
+ .service-text{
+     display: flex;
+    padding-top:25px;
+     align-items: center;
+     flex-direction: column;
+     color:rgb(15, 6, 6);
+     img{
+         width:100px;
+         height:100px;
+     }
+     p{
+         opacity: 0;
+         max-width: 250px;
+     }
+ }
+
+ div{
+  
+    background-color: #DCDCDC;
+     &:hover{
+         background-color: black;
+         color:white;
+         text-align: center;
+         padding-top: 12px;
+         cursor: pointer;
+         p{
+             opacity: 1;
+             margin-top: 12px;
+             font-size: 15px;
+         }
+     }
+ }
+      
         
     }
   
     
 
-}
