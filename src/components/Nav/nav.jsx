@@ -12,8 +12,8 @@ const nav = () => {
            <a href="#accueil"><li>Accueil</li></a>
            <a href="#presentation"><li>Présentation</li></a>
               <a href="#travaux"><li>Réalisation</li></a> 
-               <li>Activités</li>
-               <li>Comptétences</li>
+              <a href='#activity'><li>Activités</li></a>
+               <a href="#competence"><li>Comptétences</li></a>
                <li>Contact</li>
                <li>Mon CV</li>
                
