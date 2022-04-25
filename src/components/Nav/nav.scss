@@ -7,7 +7,30 @@
   width: 100%;
   background-color: white;
   z-index: 15;
+.burger{
+  position: sticky;
 
+  span{
+    position: absolute;
+  left:50px;
+    width:25px;
+   
+    background-color: rgb(88, 86, 86);
+  
+    &:nth-child(1){
+      transform: translate3d(0,10px,0);
+      height: 4px;
+    }
+    &:nth-child(2){
+      transform: translate3d(0,21px,0);
+      height: 2px;
+    }
+    &:nth-child(3){
+      transform: translate3d(0,30px,0);
+      height: 4px;
+    }
+  }
+}
   .menu{
   
   
@@ -45,5 +68,17 @@
         }
         }
       }
+  }
+}
+
+
+@media(min-width:992px){
+  .burger{
+display: none;
+}}
+
+@media(max-width:992px){
+  .menu{
+      display: none;
   }
 }

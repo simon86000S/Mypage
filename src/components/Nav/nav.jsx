@@ -4,7 +4,11 @@ import './nav.scss';
 const nav = () => {
   return (
     <div className='navigation'>
-
+<div className='burger'>
+<span></span>
+<span></span>
+<span></span>
+</div>
      <div className='menu'>
         <div className='nav-ul'>
             <h2>Audrain</h2>
@@ -14,7 +18,10 @@ const nav = () => {
               <a href="#travaux"><li>Réalisation</li></a> 
               <a href='#activity'><li>Activités</li></a>
                <a href="#competence"><li>Comptétences</li></a>
-               <li>Contact</li>
+               <li>
+        <a href='#Contact'>Contact</a>
+      </li>
+        
                <li>Mon CV</li>
                
                </ul> 

@@ -94,3 +94,23 @@ padding:5px;
        border-radius: 20%;
    }
 }
+
+/*===========================RESPONSIVE screen moyen*========================*/
+
+@media(max-width:767px){
+
+   
+    .Header {
+        .header-left{
+            .wrapper {
+                .item-wrapper{
+                    
+                   font-size: 20px;
+                }
+    
+            }
+    
+        } 
+    }
+    }
+

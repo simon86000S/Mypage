@@ -15,16 +15,22 @@ import html5 from '../assets/img/HTML5.png';
 import css3 from '../assets/img/css3.png';
 import javascript from '../assets/img/javascript.png';
 import node from '../assets/img/node.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+
 
 const Landing = () => {
+
 const span = useRef(null)
 const span2 = useRef(null)
 const span3=useRef(null)
 const span4=useRef(null)
-const scroll=()=>{
-  console.log(window.innerHeight)
-}
+
   useEffect(() => {
+    Aos.init({
+      duration:2000
+    });
   span.current.style.width="95%";
   span.current.style.transition="2s ease-in";
   span2.current.style.width="96%";
@@ -47,7 +53,7 @@ const scroll=()=>{
     <h1>Présentation</h1>
     <span></span>
     </div>
-<div className='i-description'>
+<div data-aos="fade-up" className='i-description'>
 <p><span>Developpeur Passionné</span> dans le domaine du web, j'étudie en tant que autodidacte plutot orienté Front-end, je tend à devenir <span>dévéloppeur Fullstack</span>, 
 Je conçoit des sites bénévolements, afin de me perfectionner. </p>
 
@@ -62,12 +68,13 @@ Je conçoit des sites bénévolements, afin de me perfectionner. </p>
           
             <div className='project1'>
             <div className='title-project'>
-    <h1 id="travaux">Mes travaux</h1>
+    <h1 data-aos="fade-up" id="travaux">Mes travaux</h1>
     <nav className='techno'>
       <ul className='nav-ul'>
       <li>
         <a href='#reactjs'>React js</a>
       </li>
+      
         
       </ul>
     </nav>
@@ -116,10 +123,10 @@ Je conçoit des sites bénévolements, afin de me perfectionner. </p>
      
 
     </div>
-    <div className='gridService'>
+    <div  className='gridService'>
 
-   <div className='services'>
-    <div className='service-text'> <img src={pc}></img>Multi-plateforme
+   <div  className='services'>
+    <div  className='service-text'> <img src={pc}></img>Multi-plateforme
    <p >Compatible sur tous supports, tablette, mobile</p> </div>
     
     <div className='service-text'  ><img src={html}></img>Devéloppement Web
@@ -127,12 +134,18 @@ Je conçoit des sites bénévolements, afin de me perfectionner. </p>
     <p >Création de site vitrine</p></div>
     <div className='service-text'><img src={projet}></img>Projet Web
     <p >Création de site vitrine,Landing page,site e-commerce</p></div>
-    <div className='service-text'><img  src={referencement}></img>Réferencement
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" className='service-text'><img  src={referencement}></img>Réferencement
     <p > Framework, code optimiser pour le reférencement naturel</p></div>
  
-    <div className='service-text'  ><img style={{background:"grey"}}   src={friend}></img>Accompagnement
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000" className='service-text'  ><img style={{background:"grey"}}   src={friend}></img>Accompagnement
     <p >je gére l'integralité des projets en assurant une écoute permanente</p></div>
-    <div className='service-text'><img  src={roue}></img>Maintenance web</div>
+    <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="4000" className='service-text'><img  src={roue}></img>Maintenance web</div>
 
   </div>
   
@@ -143,7 +156,7 @@ Je conçoit des sites bénévolements, afin de me perfectionner. </p>
       <div className='i'>
         <div className='i-left'><img src={backpc}></img></div>
         <div className='i-right'>
-          <h1>Compétences</h1>
+          <h1 data-aos='fade-up'>Compétences</h1>
          <div className='rod'>
            <div className='rod1'>
              <span ref={span}><img src={html5}/>HTML5<p>95%</p></span>

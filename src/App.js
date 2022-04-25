@@ -1,6 +1,8 @@
 import  Header from '../src/components/Header/Header';
 import Nav from'../src/components/Nav/nav';
 import Landing from './components/Landing/Landing';
+import Footer from './components/Footer/Footer';
+
 
 import './index.css';
 
@@ -10,6 +12,7 @@ function App() {
  <Header />
  <Nav></Nav>
  <Landing></Landing>
+ <Footer/>
     </div>
   );
 }
