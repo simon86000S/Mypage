@@ -5,6 +5,7 @@
 
 /*=================Landing Page==============*/
 .Presentation{
+    
 
     background: #f5f5f5;
 
@@ -144,8 +145,8 @@ p{
        
 .parent{
     display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 50px;
 grid-row-gap: 50px;
 margin: 50px;
@@ -833,8 +834,12 @@ font-family: 'Poly', serif;
 
 
 /*=====================responsive  small mobile=========================*/
-    @media(max-width:400px){
+    @media(max-width:450px){
         .Presentation{
+            h1{
+                transform: translateY(-4px);
+}
+            
             .i-description{
                 p{
                     padding:65px
@@ -856,6 +861,7 @@ font-family: 'Poly', serif;
            h1{
                padding-left:53px;
                font-size:40px;
+             
            }
         .title-project h1::before {
             content: "Portfolio";
@@ -863,14 +869,22 @@ font-family: 'Poly', serif;
             position: absolute;
             font-size: 66px;
             left: 40%;
-            top: -14px; }
+            top: 1px;}
 
        }
 
        .grid-project{
-           .parent{
-           display: flex;
-           flex-direction: column;
+           height:100vh;
+           .container-projects{
+            .parent{
+            
+            
+                display: none; 
+               
+        
            }
        }
+
+           }
+           
        }
