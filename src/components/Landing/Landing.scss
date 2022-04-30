@@ -48,11 +48,19 @@
     display:flex;
     justify-content: center;
     align-items: center;
-        width:900px;
+        width:100%;
         border-radius: 20px;
         margin-bottom: 10px;
         height:900px;
         background-color: beige;
+       background-image: url("../assets/img/me.jpg") ;
+       border-radius: 50%;
+       background-size: contain;
+       background-repeat: no-repeat;
+       -webkit-backdrop-filter: opacity(0.5);
+       
+      
+        
 p{
     font-size: 25px;
     max-width: 400px;
@@ -837,7 +845,7 @@ font-family: 'Poly', serif;
     @media(max-width:450px){
         .Presentation{
             h1{
-                transform: translateY(-4px);
+                transform: translateY(28px);
 }
             
             .i-description{
@@ -873,18 +881,19 @@ font-family: 'Poly', serif;
 
        }
 
-       .grid-project{
-           height:100vh;
-           .container-projects{
-            .parent{
-            
-            
-                display: none; 
-               
-        
-           }
+       
        }
 
-           }
-           
-       }
+       .grid-project{
+        height:100vh;
+        .container-projects{
+         .parent{
+         
+        display: none;
+            
+     
+        }
+    }
+
+        }
+        

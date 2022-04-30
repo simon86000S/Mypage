@@ -15,6 +15,7 @@ import html5 from '../assets/img/HTML5.png';
 import css3 from '../assets/img/css3.png';
 import javascript from '../assets/img/javascript.png';
 import node from '../assets/img/node.png';
+import me from '../assets/img/me.jpg'
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -54,8 +55,10 @@ const span4=useRef(null)
     <span></span>
     </div>
 <div data-aos="fade-up" className='i-description'>
+
 <p><span>Developpeur Passionné</span> dans le domaine du web, j'étudie en tant que autodidacte plutot orienté Front-end, je tend à devenir <span>dévéloppeur Fullstack</span>, 
-Je conçoit des sites bénévolements, afin de me perfectionner. </p>
+Je conçois des sites bénévolements, afin de me perfectionner. </p>
+
 
 </div>
 
