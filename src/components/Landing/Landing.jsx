@@ -71,7 +71,8 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
           
             <div className='project1'>
             <div className='title-project'>
-    <h1 data-aos="fade-up" id="travaux">Mes travaux</h1>
+    <h1 data-aos="fade-up" id="travaux">Mes travaux<span></span></h1>
+    
     <nav className='techno'>
       <ul className='nav-ul'>
       <li>
@@ -84,18 +85,17 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
 
     </div>
     <div className='grid-project'>
+      
+
+
     <div class="parent">
     
-<div class="div2"><a href="https://simon86000s.github.io/huitre-en-ligne/"><img src={huitre}></img ></a> </div>
-<div class="div3"><img src={computer}></img> </div>
-<div class="div4"><img src={computer}></img></div>
-<div class="div5"><img src={ordinateur}></img> </div>
-<div class="div6"><img src={ordinateur}></img> </div>
-<div class="div7"><img src={ordinateur}></img> </div>
-<div class="div8"><img src={ordinateur}></img> </div>
-<div class="div9"><img src={ordinateur}></img> </div>
-<div class="div10"><img src={ordinateur}></img></div>
-<div class="div11"><img src={ordinateur}></img> </div>
+<div class=" div div2"><a href="https://simon86000s.github.io/huitre-en-ligne/"><img src={huitre}></img ></a> </div>
+<div class=" div div3"><img src={computer}></img> </div>
+<div class=" div div4"><img src={computer}></img></div>
+<div class=" div div5"><img src={ordinateur}></img> </div>
+<div class=" div div6"><img src={ordinateur}></img> </div>
+
 
 
 </div>
@@ -103,14 +103,14 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
 
       
 
-
-
     </div>
             </div>
+            
 
 
             
 </div>
+
 
 
 <div className='activity' id='activity'>
