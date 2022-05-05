@@ -54,7 +54,7 @@ const span4=useRef(null)
     <h1>Présentation</h1>
     <span></span>
     </div>
-<div data-aos="fade-up" className='i-description'>
+<div data-aos="fade-up"  className='i-description'>
 
 <p><span>Developpeur Passionné</span> dans le domaine du web, j'étudie en tant que autodidacte plutot orienté Front-end, je tend à devenir <span>dévéloppeur Fullstack</span>, 
 Je conçois des sites bénévolements, afin de me perfectionner. </p>
@@ -71,7 +71,7 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
           
             <div className='project1'>
             <div className='title-project'>
-    <h1 data-aos="fade-up" id="travaux">Mes travaux<span></span></h1>
+    <h1 data-aos="fade-up"  data-aos-duration="2000" id="travaux">Mes travaux<span></span></h1>
     
     <nav className='techno'>
       <ul className='nav-ul'>
@@ -148,7 +148,8 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
     <p >je gére l'integralité des projets en assurant une écoute permanente</p></div>
     <div data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="4000" className='service-text'><img  src={roue}></img>Maintenance web</div>
+     data-aos-duration="4000" className='service-text'><img  src={roue}></img>Maintenance web
+      <p >je maintient le site à jour en veillant à son bon fonctionnement  </p></div>
 
   </div>
   
