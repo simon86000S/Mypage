@@ -90,7 +90,7 @@ p{
        span{
         position: absolute;
         bottom: -36px;
-        right: 500px;
+        right: 234px;
         width: 89px;
         height: 3px;
            background-color: rgb(116, 112, 112);
@@ -850,7 +850,7 @@ font-family: 'Poly', serif;
 
 
 
-/*=====================responsive  small mobile=========================*/
+/*=====================MEDIA QUERY responsive  small mobile=========================*/
     @media(max-width:450px){
         .Presentation{
             h1{
@@ -942,16 +942,21 @@ display: block;
         right: 15px;
         font-size: 58px;
       }
+
+      .projects-react .title-project span {
+        bottom: -20px;
+        right: 86px;
+      }
        }
        
     
         
        
-        /*=====================responsive  medium mobile=========================*/
+        /*=====================MEDIA QUERY responsive  medium mobile=========================*/
 
 
-        @media(max-width:700px){
+    @media(max-width:850px){
 
-
+        
        
     }
