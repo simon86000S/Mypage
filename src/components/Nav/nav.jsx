@@ -1,19 +1,46 @@
 import React from 'react';
-import './nav.scss';
+import './Nav.scss';
+import { useState } from 'react';
+import { useRef } from 'react';
 
-const nav = () => {
+
+
+
+const Nav = () => {
+ const menu = useRef(null)
+const [showMenu, setMenu] = useState(false)
+
+const ShowMenu=()=>{
+ setMenu(true)
+  
+
+}
+
+const hiddenMenu=()=>{
+  setMenu(false)
+   
+ 
+ }
+ 
+
+ 
+
   return (
-    <div className='navigation'>
-<div className='burger'>
+    <div  className='navigation'>
+        <div onClick={ShowMenu}  className='burger'>
+<span ></span>
 <span></span>
 <span></span>
-<span></span>
+
 </div>
-     <div className='menu'>
+      {showMenu && (<div>
+        <div ref={menu}  className='menu'>
         <div className='nav-ul'>
             <h2>Audrain</h2>
+          
            <ul>
-           <a href="#accueil"><li>Accueil</li></a>
+           <span onClick={hiddenMenu}>X</span>
+           <a  href="#accueil"><li>Accueil</li></a>
            <a href="#presentation"><li>Présentation</li></a>
               <a href="#travaux"><li>Réalisation</li></a> 
               <a href='#activity'><li>Activités</li></a>
@@ -30,8 +57,16 @@ const nav = () => {
 </div>
 
     </div>
+       
+
+      </div>)}
+    
+
+     
+    
+    
      </div>
   )
 }
 
-export default nav
+export default Nav
