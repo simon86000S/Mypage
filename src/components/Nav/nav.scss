@@ -9,25 +9,32 @@
   z-index: 15;
 .burger{
   position: sticky;
+  z-index:5;
+ 
 
   span{
     position: absolute;
   left:50px;
     width:25px;
+    
+    padding:4px;
    
     background-color: rgb(88, 86, 86);
   
     &:nth-child(1){
       transform: translate3d(0,10px,0);
       height: 4px;
+     
     }
     &:nth-child(2){
-      transform: translate3d(0,21px,0);
+      transform: translate3d(0,20px,0);
       height: 2px;
+     
     }
     &:nth-child(3){
       transform: translate3d(0,30px,0);
       height: 4px;
+     
     }
   }
 }
