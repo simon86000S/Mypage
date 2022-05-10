@@ -40,16 +40,16 @@ const hiddenMenu=()=>{
           
            <ul>
            <span onClick={hiddenMenu}>X</span>
-           <a  href="#accueil"><li>Accueil</li></a>
-           <a href="#presentation"><li>Présentation</li></a>
-              <a href="#travaux"><li>Réalisation</li></a> 
-              <a href='#activity'><li>Activités</li></a>
-               <a href="#competence"><li>Comptétences</li></a>
+           <a onClick={hiddenMenu} href="#accueil"><li>Accueil</li></a>
+           <a onClick={hiddenMenu}href="#presentation"><li>Présentation</li></a>
+              <a onClick={hiddenMenu} href="#travaux"><li>Réalisation</li></a> 
+              <a onClick={hiddenMenu}href='#activity'><li>Activités</li></a>
+               <a onClick={hiddenMenu} href="#competence"><li>Comptétences</li></a>
                <li>
-        <a href='#Contact'>Contact</a>
+        <a onClick={hiddenMenu} href='#Contact'>Contact</a>
       </li>
         
-               <li>Mon CV</li>
+               <li onClick={hiddenMenu}>Mon CV</li>
                
                </ul> 
 
