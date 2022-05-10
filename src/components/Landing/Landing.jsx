@@ -17,6 +17,7 @@ import javascript from '../assets/img/javascript.png';
 import node from '../assets/img/node.png';
 import me from '../assets/img/me.jpg'
 import Aos from 'aos';
+import firebase from '../assets/img/firebase.png'
 
 import 'aos/dist/aos.css';
 
@@ -29,6 +30,7 @@ const span2 = useRef(null)
 const span3=useRef(null)
 const span4=useRef(null)
 const span5=useRef(null)
+const span6=useRef(null)
 
   useEffect(() => {
     Aos.init({
@@ -43,7 +45,10 @@ const span5=useRef(null)
   span4.current.style.width="50%";
   span4.current.style.transition="2s ease-in";
   span5.current.style.width="80%";
-  span5.current.style.transition="2s ease-in"
+  span5.current.style.transition="2s ease-in";
+  span6.current.style.width="80%";
+  span6.current.style.transition="2s ease-in"
+  
   
   
 
@@ -185,6 +190,10 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
            </div>
            <div className='rod5'>
              <span ref={span5}><img src={react}/>React JS<p>80%</p></span>
+
+           </div>
+           <div className='rod6'>
+             <span ref={span6}><img src={firebase}/>Firebase<p>60%</p></span>
 
            </div>
            
