@@ -1,7 +1,7 @@
 import React,{useEffect,useRef} from 'react';
 import './Landing.scss';
 import huitre from '../assets/img/huitre.jpg';
-import react from '../assets/img/reactjs.png';
+import react from '../assets/img/react.png';
 import ordinateur from '../assets/img/ordinateur.jpg';
 import pc from "../assets/img/pcc.png";
 import html from "../assets/img/html.png"
@@ -17,6 +17,7 @@ import javascript from '../assets/img/javascript.png';
 import node from '../assets/img/node.png';
 import me from '../assets/img/me.jpg'
 import Aos from 'aos';
+
 import 'aos/dist/aos.css';
 
 
@@ -27,6 +28,7 @@ const span = useRef(null)
 const span2 = useRef(null)
 const span3=useRef(null)
 const span4=useRef(null)
+const span5=useRef(null)
 
   useEffect(() => {
     Aos.init({
@@ -39,7 +41,10 @@ const span4=useRef(null)
   span3.current.style.width="80%";
   span3.current.style.transition="2s ease-in"
   span4.current.style.width="50%";
-  span4.current.style.transition="2s ease-in"
+  span4.current.style.transition="2s ease-in";
+  span5.current.style.width="80%";
+  span5.current.style.transition="2s ease-in"
+  
   
 
 
@@ -176,6 +181,10 @@ Je conçois des sites bénévolements, afin de me perfectionner. </p>
            </div>
            <div className='rod4'>
              <span ref={span4}><img src={node}/>Node Js<p>50%</p></span>
+
+           </div>
+           <div className='rod5'>
+             <span ref={span5}><img src={react}/>React JS<p>80%</p></span>
 
            </div>
            
