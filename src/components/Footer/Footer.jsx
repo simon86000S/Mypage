@@ -37,8 +37,9 @@ const Footer = () => {
              
               <textarea type="text" rows="10" cols="450" placeholder='Votre message' name='message'></textarea>
               
-              <input type="submit" value='Send message'></input>
+              
               </div>
+              <input className='submit' type="submit" value='Envoyer'></input>
              <div>
                <h1 className='title-contact'>Me contacter</h1></div> 
 
