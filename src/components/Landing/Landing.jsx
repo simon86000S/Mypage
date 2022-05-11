@@ -66,7 +66,7 @@ const span6=useRef(null)
     </div>
 <div data-aos="fade-up"  className='i-description'>
 
-<p><span>Developpeur Passionné</span> dans le domaine du web, j'étudie en tant que autodidacte plutot orienté Front-end, je tend à devenir <span>dévéloppeur Fullstack</span>, 
+<p>Developpeur Passionné dans le domaine du web, j'étudie en tant que autodidacte plutot orienté Front-end, je tend à devenir <span>dévéloppeur Fullstack</span>, 
 Je conçois des sites bénévolements, afin de me perfectionner. </p>
 
 

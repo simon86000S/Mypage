@@ -38,7 +38,7 @@
     }
   }
 }
-  .menu{
+  .menu-hight-screen{
   
   
     font-family: 'Beau Rivage', cursive;
@@ -61,8 +61,8 @@
               text-decoration: none;
             }
          li{
-            padding:20px;
-            margin: 10px;
+          padding:20px;
+          margin: 10px;
             
             list-style: none;
           
@@ -88,18 +88,49 @@ span{
   display: none;
   }}
 
-@media(max-width:700px){
+@media(max-width:800px){
   .navigation{
     width: 76%;
   }
  .menu ul{
    display:flex;
    flex-direction: column;
+  
    width: 50px;
+   font-family: 'Beau Rivage', cursive;
+   font-size: 25px;
+   a{
+     text-decoration: none;
+     color:black;
+     
+     li{
+      padding:15px;
+      margin: 5px;
+      
+      list-style: none;
+    
+  &:hover{
+    
+      background-color: black;
+      color:white;
+      cursor: pointer;
+      transition:  .5s ease-in-out;
+  }
+  }
+   }
    span{
-   transform: translate3d(30%,25px,0);
+   transform: translate3d(150px,25px,0);
    }
    
+ }
+ .menu-hight-screen{
+   display: none;
+   .nav-ul{
+    h2{
+      display:none;
+    }
+   }
+  
  }
  
   
