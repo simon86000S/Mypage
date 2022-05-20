@@ -4,7 +4,9 @@ import emailjs from 'emailjs-com';
 import { useRef } from 'react';
 import { FaFacebookSquare } from 'react-icons/fa';
 import{FaLinkedin} from 'react-icons/fa';
-import {IoLogoGithub} from 'react-icons/io'
+import {IoLogoGithub} from 'react-icons/io';
+import { Link } from 'react-router-dom';
+
 
 
 const Footer = () => {
@@ -53,9 +55,9 @@ const Footer = () => {
       </div>
       <div className='social'>
         <div className='item-social'>
-        <FaFacebookSquare style={{height:"30px",width:'25px',marginRight:"12px"}} ></FaFacebookSquare>
-        <FaLinkedin  style={{height:"30px",width:'25px',marginRight:"12px"}} ></FaLinkedin>
-        <IoLogoGithub style={{height:"30px",width:'25px'}}></IoLogoGithub>
+       <a href='https://www.facebook.com/simon.sder.9'> <FaFacebookSquare style={{height:"30px",width:'25px',marginRight:"12px"}} ></FaFacebookSquare></a>
+        <a href='https://www.linkedin.com/in/simon-audrain-21627622a/'><FaLinkedin  style={{height:"30px",width:'25px',marginRight:"12px"}} ></FaLinkedin></a>
+       <a href='https://github.com/simon86000S'> <IoLogoGithub style={{height:"30px",width:'25px'}}></IoLogoGithub></a>
         </div>
     
 
