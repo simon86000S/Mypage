@@ -2,6 +2,9 @@ import React from 'react'
 import "../Footer/footer.scss";
 import emailjs from 'emailjs-com';
 import { useRef } from 'react';
+import { FaFacebookSquare } from 'react-icons/fa';
+import{FaLinkedin} from 'react-icons/fa';
+import {IoLogoGithub} from 'react-icons/io'
 
 
 const Footer = () => {
@@ -49,6 +52,12 @@ const Footer = () => {
 
       </div>
       <div className='social'>
+        <div className='item-social'>
+        <FaFacebookSquare style={{height:"30px",width:'25px',marginRight:"12px"}} ></FaFacebookSquare>
+        <FaLinkedin  style={{height:"30px",width:'25px',marginRight:"12px"}} ></FaLinkedin>
+        <IoLogoGithub style={{height:"30px",width:'25px'}}></IoLogoGithub>
+        </div>
+    
 
       </div>
     </div>
