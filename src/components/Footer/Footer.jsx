@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
               <input className='submit' type="submit" value='Envoyer'></input>
              <div>
-               <h1 className='title-contact'>Me contacter</h1></div> 
+               </div> 
 
 
           </div>
