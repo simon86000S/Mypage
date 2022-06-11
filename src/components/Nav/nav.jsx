@@ -2,6 +2,7 @@ import React from 'react';
 import './Nav.scss';
 import { useState } from 'react';
 import { useRef } from 'react';
+import CV from '../assets/img/CVA.pdf'
 
 
 
@@ -75,7 +76,7 @@ const hiddenMenu=()=>{
                <a href='#Contact'><li>Contact</li></a>
     
         
-               <li >Mon CV</li>
+               <li><a href={CV} download>Mon CV</a></li>
                
                </ul> 
 
